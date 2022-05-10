@@ -1,0 +1,28 @@
+Source: ignition
+Maintainer: Takumi Takahashi <takumiiinn@gmail.com>
+Section: devel
+Testsuite: autopkgtest-pkg-go
+Priority: optional
+Build-Depends: debhelper-compat (= 12),
+               dh-golang,
+               golang-any,
+               libblkid-dev
+Standards-Version: 4.5.0
+Homepage: https://github.com/coreos/ignition
+Rules-Requires-Root: no
+XS-Go-Import-Path: github.com/coreos/ignition/v2
+
+Package: ignition
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         systemd
+Built-Using: ${misc:Built-Using}
+Description: First boot installer and configuration tool (program)
+
+Package: ignition-validate
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Built-Using: ${misc:Built-Using}
+Description: CoreOS ignition config validation tool (program)
