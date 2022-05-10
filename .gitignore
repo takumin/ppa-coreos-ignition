@@ -2,3 +2,5 @@ gopath/
 bin/
 *.swp
 *.test
+
+.pc
