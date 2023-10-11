@@ -18,10 +18,9 @@ require (
 	github.com/vmware/vmw-guestinfo v0.0.0-20170707015358-25eff159a728
 	github.com/vmware/vmw-ovflib v0.0.0-20170608004843-1f217b9dc714
 	go.opencensus.io v0.22.5 // indirect
-	golang.org/x/net v0.0.0-20200602114024-627f9648deb9
+	golang.org/x/net v0.17.0
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sys v0.0.0-20200610111108-226ff32320da
-	golang.org/x/tools v0.0.0-20200610160956-3e83d1e96d0e // indirect
+	golang.org/x/sys v0.13.0
 	google.golang.org/api v0.26.0
 	google.golang.org/genproto v0.0.0-20200610104632-a5b850bcf112 // indirect
 )
